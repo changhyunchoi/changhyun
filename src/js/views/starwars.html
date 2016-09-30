@@ -1,0 +1,14 @@
+<div class="oj-hybrid-padding">
+    <h3>StarWars</h3>
+    <div>
+        <select id="select"
+                data-bind="ojComponent: {component: 'ojSelect',
+                            options: characters,
+                            value: selectedVal,
+                            multiple:false,
+                            optionChange : characterSelected,
+                            placeholder:'Select a Character',
+                            rootAttributes: {style:'max-width:20em'}}">
+        </select>
+    </div>
+</div>
